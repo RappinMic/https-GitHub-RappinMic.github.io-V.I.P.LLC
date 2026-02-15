@@ -1,1 +1,58 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
+# Bundler
+vendor/
+.bundle/
+Gemfile.lock
+
+# Node (if using any JS build tools)
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# Images - cached/generated thumbnails
+_thumbnails/
+
+# Compiled CSS (if using Sass source)
+*.css.map
+
+# Security
+*.pem
+*.key
+*.cert
